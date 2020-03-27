@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { AreaComponent } from './widgets/area/area.component';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { MatCardModule } from '@angular/material/card';
+import { CardComponent} from './widgets/card/card.component'
 
 @NgModule({
     declarations: [
@@ -17,6 +18,7 @@ import { MatCardModule } from '@angular/material/card';
         SidebarComponent,
         FooterComponent,
         AreaComponent,
+        CardComponent
     ],
     imports: [
         CommonModule,
@@ -36,6 +38,7 @@ import { MatCardModule } from '@angular/material/card';
         SidebarComponent,
         FooterComponent,
         AreaComponent,
+        CardComponent
         
     ],
     providers: [],
